@@ -19,3 +19,13 @@ https://reactnavigation.org/docs/configuring-links
 
  Java -17 
  node - v20.11.0
+
+## Video of demo:
+
+https://github.com/getsettalk/React-native-deeplink-test-app/assets/49394996/6b65979e-4fb5-4a21-b061-5f14c5eb3f9f
+
+
+
+ ###  Screenshot
+
+ ![image](https://github.com/getsettalk/React-native-deeplink-test-app/assets/49394996/b48fa979-d7e9-4c43-8b8e-4c1c7c194566)
