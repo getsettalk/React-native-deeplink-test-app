@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS" /> 
+    <!-- above "WRITE_EMBEDDED_SUBSCRIPTIONS" for e-sim  -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
       android:name=".MainApplication"
@@ -25,6 +29,12 @@
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.category.BROWSABLE" />
           <data android:scheme="mychat" />
+        </intent-filter>
+        <intent-filter>
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="upi" />
         </intent-filter>
       </activity>
     </application>

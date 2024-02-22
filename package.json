@@ -17,6 +17,8 @@
     "react-native-qrcode-svg": "^6.3.0",
     "react-native-safe-area-context": "^4.9.0",
     "react-native-screens": "^3.29.0",
+    "react-native-send-direct-sms": "^0.2.0",
+    "react-native-sim-cards-manager": "^1.0.18",
     "react-native-svg": "^14.1.0"
   },
   "devDependencies": {

@@ -8,8 +8,9 @@ import { ActivityIndicator, Text, View } from 'react-native';
 const Stack = createNativeStackNavigator();
 
 export function StackNavigator() {
+    // mean this will support upi intent also  ['mychat://app','upi://'],
     const Linking = {
-        prefixes: ['mychat://app'],
+        prefixes: ['mychat://app','upi://'],
         config: {
             screens: {
                 /* Tabs:{ // this is for other like tabs 
